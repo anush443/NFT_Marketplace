@@ -1,4 +1,4 @@
-const { etehrs, ethers } = require("hardhat")
+const { ethers } = require("hardhat")
 
 const PRICE = ethers.utils.parseEther("0.1")
 
