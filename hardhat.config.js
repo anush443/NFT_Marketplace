@@ -23,6 +23,9 @@ module.exports = {
             chainId: 31337,
             // gasPrice: 130000000000,
         },
+        localhost: {
+            chainId: 31337,
+        },
         rinkeby: {
             url: RINKEBY_RPC_URL,
             accounts: [PRIVATE_KEY],

@@ -18,3 +18,8 @@ async function moveBlocks(amount, sleepAmount = 0) {
     }
     console.log(`Moved ${amount} blocks`)
 }
+
+module.exports = {
+    moveBlocks,
+    sleep,
+}
