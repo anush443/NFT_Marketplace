@@ -18,7 +18,7 @@ const mintAndList = async () => {
     await tx.wait(1)
     console.log("NFT Listed!")
     if (network.config.chainId == 31337) {
-        await moveBlocks(2)
+        await moveBlocks(2, (sleepAmount = 1000))
     }
 }
 
